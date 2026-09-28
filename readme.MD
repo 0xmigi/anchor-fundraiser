@@ -1,5 +1,11 @@
 # Token Fundraiser
 
+## Chosen Feature: Option C — NFT receipt for contributing
+
+Every contribution receives a one-of-one NFT receipt that works as a **bearer claim** on their contribution. The receipt is transferable and has no freeze authority. Whoever holds it can redeem it for a refund after the fundraise ends without reaching its target: the `refund` instruction burns the receipt and pays out the contribution recorded against it.
+
+Because a receipt equals a refund claim, receipts can be traded, and a secondary market for positions in the fundraise could form. Contributors who transfer their receipt give up their refund; there is no clawback, and the program never burns a token it doesn't hold the signature for.
+
 ## Prerequisites
 
 | Tool | Version |
